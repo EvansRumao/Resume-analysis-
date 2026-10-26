@@ -1,0 +1,3 @@
+Copy your resume_screening_model.pkl file into this folder.
+Expected path: backend/model/resume_screening_model.pkl
+Only load pickle files you created or trust. Pickle loading can execute code.
