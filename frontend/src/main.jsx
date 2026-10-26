@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client'
 import { Upload, FileText, Sparkles, Search, Download, CheckCircle2, AlertCircle, LoaderCircle, BriefcaseBusiness, BrainCircuit, Trash2 } from 'lucide-react'
 import './styles.css'
 
-const API_BASE = import.meta.env.VITE_API_BASE || 'http://localhost:8000'
+const API_BASE = import.meta.env.VITE_API_BASE 
 
 function App() {
   const [jobDescription, setJobDescription] = useState('')
